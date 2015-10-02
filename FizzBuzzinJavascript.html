@@ -1,0 +1,36 @@
+<html>
+<head>
+<script type="text/javascript">
+
+for(var i=1; i < 31; i++){
+	if(i % 15 == "0"){
+		document.write("FizzBuzz");
+	}
+	else if(i % 5 == "0"){
+		document.write("<p class='buzz'>Buzz</p>");
+	}
+	else if(i % 3 =="0"){
+		document.write("<p class='fizz'>Fizz</p>");
+	}
+	else
+	{
+		document.write(i);
+	}
+	document.write("<br>");
+}
+
+</script>
+<style>
+	.fizz{
+		font-size: large;
+		color: red;
+	}	
+	.buzz {
+		font-size: large;
+		color: blue;
+	}
+</style>
+</head>
+<body>
+</body>
+</html>
