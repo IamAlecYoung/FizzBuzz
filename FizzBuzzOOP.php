@@ -48,7 +48,9 @@ $LetsPlay = new FizzBuzz;
 //For Statement to check numbers against Methods.
 for($i=1; $i<31; $i++)
 {
+	//Now to start the selection
 	echo $LetsPlay->MakeTheNumbersDance($i);
+	//And also edit the breakpoint.
 	echo $LetsPlay->EchoMe();
 }
 
